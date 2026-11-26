@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Cloud Service Catalog</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 40px;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 12px; color: #38bdf8; }
+    p.subtitle { color: #94a3b8; margin-bottom: 24px; font-size: 0.95rem; }
+    .student-info {
+      background: #0f172a;
+      border-left: 4px solid #38bdf8;
+      padding: 16px;
+      border-radius: 6px;
+      margin-bottom: 28px;
+      text-align: left;
+    }
+    .student-info p { margin: 6px 0; font-size: 1rem; }
+    .btn-group { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    a.btn {
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: transform 0.15s ease, background 0.2s ease;
+    }
+    .btn-primary { background: #0284c7; color: #ffffff; }
+    .btn-primary:hover { background: #0369a1; transform: translateY(-2px); }
+    .btn-secondary { background: #10b981; color: #0f172a; }
+    .btn-secondary:hover { background: #059669; transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Enterprise Cloud Service Catalog</h1>
+    <p class="subtitle">Multi-Route Cloud PaaS Microservice & API Gateway</p>
+
+    <div class="student-info">
+      <p><strong>Melroy</strong> Melroy D Souza</p>
+      <p><strong>2648039</strong> [Your Roll Number]</p>
+    </div>
+
+    <div class="btn-group">
+      <a href="/api/services" class="btn btn-primary">View Services (/api/services)</a>
+      <a href="/api/status" class="btn btn-secondary">System Status (/api/status)</a>
+    </div>
+  </div>
+</body>
+</html>
